@@ -23,7 +23,7 @@
 @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .overlay {
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-      url('../images/hero desktop 2x.jpg');
+      url('../images/herodesktop2x.jpg');
   }
 }
 
@@ -71,6 +71,7 @@
   height: 100%;
   background-color: rgba(0, 0, 0, 0.2);
   z-index: 1;
+  overflow-y: scroll;
   transition: opacity 250ms var(--time-declaration);
 }
 
